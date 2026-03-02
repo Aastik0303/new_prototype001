@@ -230,7 +230,7 @@ def init_agents() -> None:
             st.session_state.api_key = random.choice(api_keys)
     """
     import random as _random
-    sys.path.insert(0, str(Path(__file__).parent))
+    
     from backend import MultiAgentOrchestrator, key_pool
     key_pool.set_keys(API_KEYS)                           # random.choice inside
     st.session_state.orchestrator = MultiAgentOrchestrator()
