@@ -1,0 +1,35 @@
+# Core
+streamlit>=1.35.0
+langchain>=0.2.0
+langchain-google-genai>=1.0.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+
+# Google AI
+google-generativeai>=0.7.0
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Document loaders
+pypdf>=4.0.0
+unstructured>=0.13.0
+python-docx>=1.1.0
+
+# Data analysis
+pandas>=2.0.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+openpyxl>=3.1.0
+
+# Web search (for Deep Researcher)
+duckduckgo-search>=6.0.0
+
+# Video (optional - comment out if not needed)
+# opencv-python>=4.9.0
+# openai-whisper>=20231117
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
